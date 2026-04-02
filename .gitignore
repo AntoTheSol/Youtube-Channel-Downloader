@@ -1,0 +1,48 @@
+# -------------------------
+# Folders
+# -------------------------
+_internal/
+Channel Downloader Backup/
+channel_database_backup/
+
+# -------------------------
+# File types
+# -------------------------
+*.txt
+*.exe
+*.json
+*.rar
+*.zip
+
+# -------------------------
+# Environment
+# -------------------------
+.env
+
+# -------------------------
+# Python version scripts
+# -------------------------
+*V*.py
+
+# -------------------------
+# Specific file
+# -------------------------
+@*.md
+*Copy*
+
+# -------------------------
+# Allowed Files
+# -------------------------
+
+!requirements.txt
+
+# -------------------------
+# PyInstaller
+# -------------------------
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
